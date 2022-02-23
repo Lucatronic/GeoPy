@@ -1,0 +1,16 @@
+{
+    "name": "traccar-web",
+    "dependencies": {
+        "extjs-gpl": "^6.2.0",
+        "ol": "^6.12.0",
+        "ol-layerswitcher": "^3.8.3",
+        "openlayers-dist": "^6.12.0",
+        "proj4": "^2.7.5"
+    },
+    "devDependencies": {
+        "eslint": "^4.4.1"
+    },
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint web/."
+    }
+}
